@@ -1,9 +1,8 @@
 # Sales-analysis
 Detailed sales analysis by customer, product, manufacturer, geography, segment, and category. 
 
-- Measurement of KPIs such as total sales, daily, monthly, and annual variations.
+- Measurement of KPIs such as total sales, daily, and monthly.
 - Identification of optimization opportunities and growth strategies based on the analyzed data.
-
 
 Case: Requirements Gathering
 
@@ -27,6 +26,6 @@ What will be measured:
 Objective: Build a Data Lake with a Medallion Architecture
 
 - Landing Zone: Where the data is stored in its raw form, without any additional processing.
-- Bronze: Where the data is pre-processed for cleaning, deduplication, and denormalization.
-- Silver: Where the data is enriched, aggregated, and transformed into a more readable form for reporting and analysis.
-- Gold: Where the data is stored for large-scale analysis and generating value for the business.
+- Bronze: Where the data is stored in its raw form, without any additional processing.
+- Silver: Where the data is pre-processed for cleaning and deduplication.
+- Gold: Where the data is transformed into a more readable form for reporting and analysis and stored for large-scale analysis and generating value for the business.
