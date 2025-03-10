@@ -20,3 +20,13 @@ What will be measured:
   - MTD (Month-To-Date) accumulation (quantity and value in R$)
   - YTD accumulated variation (quantity and value in R$)
   - MTD accumulated variation (quantity and value in R$)
+
+
+![image](https://github.com/user-attachments/assets/337bd02d-6814-47d2-a05e-3af5a4d04353)
+
+Objective: Build a Data Lake with a Medallion Architecture
+
+- Landing Zone: Where the data is stored in its raw form, without any additional processing.
+- Bronze: Where the data is pre-processed for cleaning, deduplication, and denormalization.
+- Silver: Where the data is enriched, aggregated, and transformed into a more readable form for reporting and analysis.
+- Gold: Where the data is stored for large-scale analysis and generating value for the business.
